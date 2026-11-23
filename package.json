@@ -1,0 +1,14 @@
+{
+  "name": "xbox360-blades-sounds",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build/index.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@steambrew/starlight": "1.1.7"
+  }
+}

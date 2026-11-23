@@ -1,0 +1,14 @@
+[plugin]
+id = "x360-blades-sounds"
+name = "Xbox 360 Blades Sounds"
+version = "1.0.0"
+author = "tameranian"
+description = "Installs Xbox 360 sound effects for the Blades theme."
+
+[assets]
+resources = ["sounds/*.wav"]
+
+[backend]
+entry = "backend/main.lua"
+sources = ["backend/**/*.lua"]
+
